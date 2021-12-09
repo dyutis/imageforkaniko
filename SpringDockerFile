@@ -1,6 +1,6 @@
 FROM openjdk:18-jdk
 
-COPY ./{{SERVICE_NAME}}.jar myspringproject-nexusTag-1.0.jar
+COPY ./SERVICE_NAME.jar myspringproject-nexusTag-1.0.jar
 
 EXPOSE 8080
 

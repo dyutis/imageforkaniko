@@ -5,6 +5,4 @@ COPY myspringproject-nexusTag-1.0.jar myspringproject-nexusTag-1.0.jar
 
 RUN echo "Process Completed!!"
 
-RUN exit 123
-
 ENTRYPOINT ["java", "-jar", "/myspringproject-nexusTag-1.0.jar"]

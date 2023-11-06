@@ -3,6 +3,6 @@ FROM openjdk:18-jdk
 RUN echo "Process Started!!"
 COPY myspringproject-nexusTag-1.0.jar myspringproject-nexusTag-1.0.jar
 
-RUN echo "Process Completed!!"
+RUN echo "Process Executed!!"
 
 ENTRYPOINT ["java", "-jar", "/myspringproject-nexusTag-1.0.jar"]

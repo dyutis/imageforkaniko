@@ -11,6 +11,7 @@ spec:
     metadata:
       labels:
         app: spring-app
+        appVersion: ${{FD_PROJECT_VERSION}}
     spec:
       containers:
       - name: spring-container
